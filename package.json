@@ -1,0 +1,16 @@
+{
+  "name": "node-product-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "API REST CRUD avec Node.js et Express",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2"
+  }
+}
